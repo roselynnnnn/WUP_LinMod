@@ -40,7 +40,7 @@ plot(SIMS~ARM,data=data)
 model.1=lm(SIMS~ARM, data=data)
 abline(model.1)
 ```
-The scatterplot shows simulated strength 
+The scatterplot shows simulated strength increases.
 
 ### Numerical results
 
@@ -56,7 +56,7 @@ correlation = 0.69 shows moderate positive correlaion between SIMS score and ARM
 summary.lm(model.1)
 ```
 
-
+Model.1 shows that the intercept and coefficient of ARM are both significantly different from 0.
 
 #### Predict at target point
 
